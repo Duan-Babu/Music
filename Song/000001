@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title>TFBOYS - 大梦想家 Babu Music</title>
+		<script src="http://fhwangyinan.gitee.io/html_lyrics_scrolling/js/jquery.min.js"></script>
+		<style>
+			div{
+				width:340px;
+				height:90%;
+				margin:0 auto;
+				overflow:hidden;
+			}
+			ul{
+				transition-duration: 600ms;
+			}
+			ul, li{
+				list-style:none;
+				padding: 0;
+				margin: 0;
+			}
+			li.on{
+				color:white;
+				
+				letter-spacing:1px;
+			}
+			p{
+				overflow:hidden;
+				text-overflow: ellipsis;
+				height: 16px;
+        font-size: 18px;
+				line-height: 18px;
+				-webkit-line-clamp: 1;
+				-webkit-box-orient: vertical;
+				display: -webkit-box;
+				text-align: center;
+				margin-top: 0;
+				margin-bottom: 16px;
+			}
+			audio{
+				margin-top: 10px;
+			}
+		</style>
+  <link href="https://590233ee4fbb3.cdn.sohucs.com/auto/1-autof24d441946974a39953f9c9f1a593eb3" rel="shortcut icon">
+  <script type="text/javascript" src="http://cdn.repository.webfont.com/wwwroot/js/wf/youziku.api.min.js"></script>
+  <script type="text/javascript">
+     $webfont.load("body", "cbbf10c2ebd0420a85eab5e7f9671d26", "OPPOSans-M");
+     /*$webfont.load("#id1,.class1,h1", "cbbf10c2ebd0420a85eab5e7f9671d26", "OPPOSans-M");*/
+     /*．．．*/
+     $webfont.draw();
+  </script>
+</head>
+<body  background="https://tu.hk.cn/img/506"
+style=" background-repeat:no-repeat ;
+background-size:100% 100%;
+background-attachment: fixed;"
+>
+  <div style="z-index:999;display: block; position: fixed; left: 0px; top: 200px;width: 300px;height: 400px">
+    <div class="content"><a href=""><img src="https://tu.hk.cn/img/504"></a></div>
+  </div>
+  <center><img src="https://imglf4.lf127.net/img/Z3dlYmFNYjlRWmVXT0dRRUExWWF4bTR3aE5qZmRwTEpyaXBvdWQwQklSR1pxMmUzMlFVaWxnPT0.png" width="361.6px" height="127.6px"  alt="Babu"></center>
+  <center><img src="https://imgessl.kugou.com/stdmusic/20200810/20200810100432293929.jpg" class="musicp"></center><br>
+  <center><a><font size="5"color="#ffffff" ><b>大梦想家</b></font></a></center><br>
+  <center><a><font size="3"color="#ffffff">TFBOYS</font></a></center><br> 
+  <center> <audio  id="audio" controls="controls" autoplay="autoplay" loop="loop" controlslist="nodownload" style="width:400px"><source src="https://freetyst.nf.migu.cn/public/product9th/product43/product/24bit/2021/04/11/69906200006/69906200006.flac"> </audio></center>
+  <!---<center> <video controls=""controlslist="nodownload" preload="metadata" style="max-height: 200%;max-width: 200%;"><source src="https://www.kumeiwp.com/sub/filestores/2021/10/25/b01e0e487d0ecb68feddcaf6b584e63b.mp4" type="video/mp4"></video></center>--->
+  <style type="text/css">
+    .musicp{
+    width:400px;
+    height:400px;
+    border-radius: 15px;
+    }
+      </style>
+  <div align="center" style="color:#aab0bd;height:300px;width:auto;margin-top: -3px;margin-left:0px">
+    <ul id="lrclist" style="transform: translateY(200px);width:500px"><!-- 初始值 -->
+      
+    </ul>
+  </div>
+  <script>
+  var lrcJSON = {
+    "[00:00.00]":"大梦想家 - TFBOYS",
+"[00:00.50]":"词：王韵韵",
+"[00:01.00]":"曲：刘佳",
+"[00:01.54]":"一个一个梦飞出了天窗",
+"[00:05.12]":"一次一次想穿梭旧时光",
+"[00:16.56]":"雨再大 也总要回家",
+"[00:19.95]":"被淋湿的鞋 晒干再出发",
+"[00:23.47]":"轻松的步伐 被泥土冲刷",
+"[00:27.97]":"力量无限放大",
+"[00:31.11]":"我们 被小事打扰",
+"[00:34.03]":"为心事烦恼 骨骼和时间 赛跑",
+"[00:39.20]":"未来的最佳男主角",
+"[00:42.85]":"准没准备好",
+"[00:45.47]":"带着光 跟我飞翔",
+"[00:51.93]":"感受风的速度在耳边 呼啸远方",
+"[00:59.55]":"一个一个梦飞出了天窗",
+"[01:02.93]":"一次一次想穿梭旧时光",
+"[01:06.42]":"插上竹蜻蜓张开了翅膀",
+"[01:09.83]":"飞到任何想要去的地方",
+"[01:13.42]":"一个一个梦写在日记上",
+"[01:16.96]":"一点一点靠近诺贝尔奖",
+"[01:20.27]":"只要你敢想就算没到达理想",
+"[01:24.79]":"至少 有回忆珍藏",
+"[01:44.05]":"我们 慢慢地生长",
+"[01:47.47]":"从小的愿望 到大的梦想 起航",
+"[01:52.93]":"坚持是生命的永恒",
+"[01:56.43]":"跳动的心脏",
+"[01:59.09]":"带着光 跟我飞翔",
+"[02:05.52]":"感受风的速度在耳边 呼啸远方",
+"[02:13.01]":"一个一个梦飞出了天窗",
+"[02:16.47]":"一次一次想穿梭旧时光",
+"[02:19.97]":"插上竹蜻蜓张开了翅膀",
+"[02:23.45]":"飞到任何想要去的地方",
+"[02:27.01]":"一个一个梦写在日记上",
+"[02:30.50]":"一点一点靠近诺贝尔奖",
+"[02:33.95]":"只要你敢想就算没到达理想",
+"[02:38.35]":"至少 有回忆珍藏",
+"[02:42.86]":"未来是什么样",
+"[02:45.04]":"心未眠夜未央",
+"[02:46.72]":"像钻石一样闪亮",
+"[02:49.51]":"oooh",
+"[02:50.20]":"站在逆风的方向",
+"[02:51.92]":"反而更大声地唱",
+"[02:53.70]":"YOLO青春 就一次疯狂",
+"[02:56.81]":"一个一个梦飞出了天窗",
+"[03:00.40]":"一次一次想穿梭旧时光",
+"[03:04.01]":"插上竹蜻蜓张开了翅膀",
+"[03:07.34]":"飞到任何想要去的地方",
+"[03:10.74]":"一个一个梦写在日记上",
+"[03:14.38]":"一点一点靠近诺贝尔奖",
+"[03:17.70]":"只要你敢想就算没到达理想",
+"[03:22.20]":"至少 有回忆珍藏",
+"[03:29.78]":"Yeah 大梦想家",
+"[03:40.08]":"YOLO",
+  };
+  
+  
+  var lrcTime = [];//歌词对应的时间数组
+  var ul = $("#lrclist")[0];//获取ul
+  
+  var i = 0;
+  $.each(lrcJSON, function(key, value) {//遍历lrc
+    lrcTime[i++] = parseFloat(key.substr(1,3)) * 60 + parseFloat(key.substring(4,10));//00:00.000转化为00.000格式
+    ul.innerHTML += "<li><p>"+lrcJSON[key]+"</p></li>";//ul里填充歌词
+  });
+  lrcTime[lrcTime.length] = lrcTime[lrcTime.length-1] + 3;//如不另加一个结束时间，到最后歌词滚动不到最后一句
+  
+  
+  var $li = $("#lrclist>li");//获取所有li
+  var isLocked = false;//当拖动进度条的时候锁定，防止拖动进度条时audio时间改变出现冲突
+  var currentLine = 0;//当前播放到哪一句了
+  var currentTime;//当前播放的时间
+  var audio = document.getElementById("audio");
+  var ppxx;//保存ul的translateY值
+  
+  audio.ontimeupdate = function() {//audio时间改变事件
+    if(isLocked==false)
+      {
+        isLocked=true;
+        currentTime = audio.currentTime;
+        for(n=-8,len=lrcTime.length;n<=8;n++)
+          {//将可视部分的所有其他歌词设置为默认
+            if(currentLine+n<len-1)
+              {
+                $li.get(currentLine+n).className="";
+            console.log(" clear"+currentLine+n);
+                
+              }
+            
+            else break;
+          }
+        
+    for (j=0, len=lrcTime.length; j<len; j++){
+      
+      if (currentTime<=lrcTime[j+1] && currentTime>=lrcTime[j]){
+        currentLine =  j;
+        ppxx = 180-(currentLine*32);
+        ul.style.transform = "translateY("+ppxx+"px)";
+        
+        $li.get(currentLine-1).className="";
+        console.log("on"+currentLine);
+        $li.get(currentLine).className="on";
+        break;
+      }
+    }
+        isLocked=false;
+      }
+    
+  };
+  
+
+  
+  </script>
+  
+  </body>>
+</html>
